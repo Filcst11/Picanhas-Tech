@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Picanha's Tech</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <link rel="stylesheet" href="../css/estilo.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -57,7 +58,7 @@
           <a class="link_lista_menu_cabecalho" href="">
             <li class="opcoes_lista_menu_cabecalho">Promoções</li>
           </a>
-          <a class="link_lista_menu_cabecalho" href="">
+          <a class="link_lista_menu_cabecalho" href="contato-.html">
             <li class="opcoes_lista_menu_cabecalho">Contato</li>
           </a>
           <li id="Login">
@@ -76,18 +77,22 @@
           </li>
 
           <li id="numero_carrinho_cabecalho">0</li>
-          </li>
+        </li>
         </ul>
       </li>
     <!-------------LOGO MENU CELULAR------------------>
       <li id="Menu_Mobile">
-        <div>
-          <div id="Botao_Menu">MENU</div>
-          <select name="MENU" id="a_Botao_Menu">
-            <option></option>
-            <option>1</option>
-            <option>2</option>
-          </select>  
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: black; border: none;">
+            <img src="../imagens/menu-de-hamburguer.png" width="32px">
+          </button>
+          <ul class="dropdown-menu" style="color: white ;background-color: black;">
+            <li><a class="dropdown-item" href="produto.html" style="color: white ;">Produtos</a></li>
+            <li><a class="dropdown-item" href="#" style="color: white ;">Promoções</a></li>
+            <li><a class="dropdown-item" href="#" style="color: white ;">Contato</a></li>
+            <li><a class="dropdown-item" href="#" style="color: white ;">Login</a></li>
+            <li><a class="dropdown-item" href="#" style="color: white ;">Carrinho</a></li>
+          </ul>
         </div>
       </li>  
     </ul>   
@@ -109,7 +114,7 @@
         <h1>
           Rtx nvidia <br>3060
         </h1>
-        <button class="btn-comprar">Comprar</button>
+        <button class="botao-comprar">Comprar</button>
       </div>
 
       <div class="card-2">
@@ -120,7 +125,7 @@
 <div class="divisoria_2"></div>
     <div class="texto-c6">
       <h1>Mais Vendidos</h1>
-      <button class="btn-ver-mais">Ver mais</button>
+      <button class="botao-ver-mais">Ver mais</button>
     </div>
     
 
@@ -130,25 +135,25 @@
         <img src="../imagens/motherboard.png">
         <h2 class="desc_pm"><br>Placa mãe Gigabyte b420m<br><s>R$250,00</s><br>R$225,00</h2>
         <br>
-        <button class="btn-comprar-c2">Comprar</button>
+        <button class="botao-comprar-c2">Comprar</button>
       </div>
       <div class="card2-c2">
         <img src="../imagens/mousepad.webp">
         <h2 class="desc_mp">Mousepad Corsair<br><s>R$90,00</s><br>R$81,00</h2>
         <br>
-        <button class="btn-comprar-c2">Comprar</button>
+        <button class="botao-comprar-c2">Comprar</button>
       </div>
       <div class="card3-c2">
         <img src="../imagens/controle.webp">
         <h2 class="desc_controle">Controle Xbox Series X<br>R$350,00</h2>
         <br>
-        <button class="btn-comprar-c2">Comprar</button>
+        <button class="botao-comprar-c2">Comprar</button>
       </div>
       <div class="card4-c2">
         <img src="../imagens/placavideo.png">
         <h2 class="desc_pv">RTX EVGA 3060<br>R$3200,00</h2>
         <br>
-        <button class="btn-comprar-c2">Comprar</button>
+        <button class="botao-comprar-c2">Comprar</button>
       </div>
     </div>
 
@@ -190,7 +195,7 @@
 
     <div class="texto-c6">
       <h1>DÊ UM UPGRADE NO SEU SETUP</h1>
-      <button class="btn-ver-mais">Ver mais</button>
+      <button class="botao-ver-mais">Ver mais</button>
     </div>
 
     
@@ -199,25 +204,25 @@
         <img src="../imagens/razerm1.png">
         <h2 class="desc_pm"><br>Mouse Razer Deathadder Essential<br><s>R$399,90</s><br>R$349,90</h2>
         <br>
-        <button class="btn-comprar-c2">Comprar</button>
+        <button class="botao-comprar-c2">Comprar</button>
       </div>
       <div class="card2-c4">
         <img src="../imagens/razerpad.png">
         <h2 class="desc_mp">Mousepad Gamer Razer Firefly V2<br><s>R$499,90</s><br>R$399,90</h2>
         <br>
-        <button class="btn-comprar-c2">Comprar</button>
+        <button class="botao-comprar-c2">Comprar</button>
       </div>
       <div class="card3-c4">
         <img src="../imagens/headrazer.png">
         <h2 class="desc_controle">Headset Gamer Razer Kraken X<br>299,90</h2>
         <br>
-        <button class="btn-comprar-c2">Comprar</button>
+        <button class="botao-comprar-c2">Comprar</button>
       </div>
       <div class="card4-c4">
         <img src="../imagens/teclado-razer.png">
         <h2 class="desc_pv">Teclado Razer Blackwidow Chroma V2<br>R$999,90</h2>
         <br>
-        <button class="btn-comprar-c2">Comprar</button>
+        <button class="botao-comprar-c2">Comprar</button>
       </div>
     </div>
 
@@ -230,7 +235,7 @@
         <h1>Domine o jogo com economia</h1>
           <br>
         <p> Pague à vista e ganhe 10% de desconto <br>em peças e periféricos para PC!</p>
-        <button class="btn-comprar-c5">Saiba mais</button>
+        <button class="botao-comprar-c5">Saiba mais</button>
       </div>
         
     </div>
@@ -239,7 +244,7 @@
 
     <div class="texto-c6">
       <h1>PEÇAS PARA SUA MÁQUINA</h1>
-      <button class="btn-ver-mais">Ver mais</button>
+      <button class="botao-ver-mais">Ver mais</button>
     </div>
 
     
@@ -248,25 +253,25 @@
         <img src="../imagens/fontebala.png">
         <h2 class="desc_pm"><br>Fonte Corsair VS 450<br><s>R$399,90</s><br>R$329,90</h2>
         <br>
-        <button class="btn-comprar-c2">Comprar</button>
+        <button class="botao-comprar-c2">Comprar</button>
       </div>
       <div class="card2-c6">
         <img src="../imagens/rambala.png">
         <h2 class="desc_mp">Memórias RAM hyperx 8gb<br><s>R$300,90</s><br>R$219,90</h2>
         <br>
-        <button class="btn-comprar-c2">Comprar</button>
+        <button class="botao-comprar-c2">Comprar</button>
       </div>
       <div class="card3-c6">
         <img src="../imagens/ryzen.png">
         <h2 class="desc_controle">Processador ryzen 3 3200g<br>499,90</h2>
         <br>
-        <button class="btn-comprar-c2">Comprar</button>
+        <button class="botao-comprar-c2">Comprar</button>
       </div>
       <div class="card4-c6">
         <img src="../imagens/ssdbala.png">
         <h2 class="desc_pv">SSD Kingston 960 GB <br>R$287,90</h2>
         <br>
-        <button class="btn-comprar-c2">Comprar</button>
+        <button class="botao-comprar-c2">Comprar</button>
       </div>
     </div>
 <div class="divisoria_2"></div>
@@ -360,10 +365,10 @@
           <li style="font-weight: bold;">Participe da comunidade</li><br>
           <li>
             <ul id="FotosComunidade" style="list-style: none; display: flex; justify-content: space-between;">
-              <li><img src="/../imagens/logo_facebook.webp" alt=""></li>
-              <li><img src="/../imagens/logo_instagram.webp" alt=""></li>
-              <li><img src="/../imagens/logo_youtube.webp" alt=""></li>
-              <li><img src="/../imagens/logo_tiktok.webp" alt=""></li>
+              <li><img src="../imagens/logo_facebook.webp" alt=""></li>
+              <li><img src="../imagens/logo_instagram.webp" alt=""></li>
+              <li><img src="../imagens/logo_youtube.webp" alt=""></li>
+              <li><img src="../imagens/logo_tiktok.webp" alt=""></li>
             </ul>
           </li><br>
           <li style="font-size: 80%;">©2023 por PICANHA´S TECH.<br>Orgulhosamente criado com<br>esforço
@@ -392,7 +397,7 @@
       <div>
         <ul class="listas_colunas">
           <li style="font-weight: bold;">Métodos de pagamento</li> <br>
-          <li><img id="ImagemMeiosDePagamento" src="/../imagens/metodosPagamento.webp" alt=""></li><br>
+          <li><img id="ImagemMeiosDePagamento" src="../imagens/metodosPagamento.webp" alt=""></li><br>
         </ul>
       </div>
     </div>
@@ -412,7 +417,7 @@
     new window.VLibras.Widget('https://vlibras.gov.br/app');
   </script>
   <!--Fim VLibras-->
-  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>  
 </body>
 
 </html>
